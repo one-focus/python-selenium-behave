@@ -23,26 +23,9 @@ password = 'your_password'
 ### Create page objects:
 + Base page 
 + Login page
-+ Topic page
 + Main page
 + Search Results page
 
 ### Test cases:
-+ Valid Search
-+ Invalid Search
-+ Successful login
-
-### Repository tree
-```
-.
-├── pages
-│   └── base_page.py
-│       └── topic_page.py
-│           ├── login_page.py
-│           ├── main_page.py
-│           └── search_results_page.py
-├── tests
-│   └── test.py
-├── requirements.txt
-└── README.md
-```
++ Regression.feature
++ Validation.feature
