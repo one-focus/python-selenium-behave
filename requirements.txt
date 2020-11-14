@@ -1,2 +1,2 @@
 selenium
-allure-behave
+behave
