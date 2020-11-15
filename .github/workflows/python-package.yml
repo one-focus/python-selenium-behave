@@ -23,4 +23,4 @@ jobs:
         pip install git+https://github.com/behave/behave
     - name: Test with behave
       run: |
-        behave
+        python3 behave-parallel.py --tags=regression
