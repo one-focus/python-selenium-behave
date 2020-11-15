@@ -16,11 +16,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Get Allure history
-        uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-          path: gh-pages
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
