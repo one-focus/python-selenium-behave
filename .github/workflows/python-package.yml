@@ -23,4 +23,7 @@ jobs:
         pip3 install git+https://github.com/behave/behave
     - name: Test with behave
       run: |
+        brew install allure
         python3 behave-parallel.py --tags=search
+        docker build . -t allure-gen
+        docker run -v ${PWD}:/github/workspace allure-gen allure-results allure-report
