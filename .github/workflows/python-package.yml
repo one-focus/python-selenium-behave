@@ -16,6 +16,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
+    - name: Get Allure history
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
@@ -26,13 +32,6 @@ jobs:
         brew install allure
         python3 behave-parallel.py --tags=search
         allure generate --clean "allure-results" -o "allure_report"
-    - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
     - name: Test local action
       uses: ./allure-report-action
       if: always()
