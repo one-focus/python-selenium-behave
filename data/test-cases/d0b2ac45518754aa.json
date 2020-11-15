@@ -1,0 +1,109 @@
+{
+  "uid" : "d0b2ac45518754aa",
+  "name" : "Validate left menu -- @1.4 ",
+  "historyId" : "82dff384cd88a308d8a63547ecd473dc",
+  "time" : {
+    "start" : 1605414752506,
+    "stop" : 1605414752918,
+    "duration" : 412
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1605414752520,
+        "stop" : 1605414752619,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on Contact us",
+      "time" : {
+        "start" : 1605414752620,
+        "stop" : 1605414752806,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see \"Wikipedia:Contact us\" on the page",
+      "time" : {
+        "start" : 1605414752806,
+        "stop" : 1605414752918,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "search"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "menu item",
+    "value" : "Contact us"
+  }, {
+    "name" : "text",
+    "value" : "Wikipedia:Contact us"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "search", "regression" ]
+  },
+  "source" : "d0b2ac45518754aa.json",
+  "parameterValues" : [ "Contact us", "Wikipedia:Contact us" ]
+}

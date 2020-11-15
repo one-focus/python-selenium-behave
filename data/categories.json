@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your interest\n\n",
+      "children" : [ {
+        "name" : "Validate left menu -- @1.5 ",
+        "uid" : "6103ff2f5e9224c6",
+        "parentUid" : "242775e4e2ee6a6c7263d0c79a3569d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605414752919,
+          "stop" : 1605414763439,
+          "duration" : 10520
+        },
+        "flaky" : false,
+        "parameters" : [ "Donate", "Thank you for your interest" ]
+      } ],
+      "uid" : "242775e4e2ee6a6c7263d0c79a3569d0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
