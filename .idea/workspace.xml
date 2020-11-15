@@ -4,6 +4,7 @@
     <list default="true" id="97a4dbca-593b-417c-bab8-46d35b70d888" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/python-package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-package.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/Regression.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Regression.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605409585619</updated>
-      <workItem from="1605409587369" duration="1483000" />
+      <workItem from="1605409587369" duration="1926000" />
     </task>
     <servers />
   </component>
