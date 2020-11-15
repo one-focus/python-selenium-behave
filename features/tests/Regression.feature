@@ -1,4 +1,5 @@
 # Created by Alex Kardash at 14/11/2020
+@search
 Feature: Login
   Check user can login with valid username and password
 
