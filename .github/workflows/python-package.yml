@@ -26,7 +26,7 @@ jobs:
         pip install git+https://github.com/behave/behave
     - name: Test with behave
       run: |
-        brew install allure
+        sudo apt-get install -y allure
         python behave-parallel.py --tags=search
         allure generate --clean "allure-results" -o "allure_report"
     - name: Deploy report to Github Pages
