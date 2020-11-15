@@ -21,13 +21,13 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python3 -m pip install --upgrade pip
-        pip3 install -r requirements.txt
-        pip3 install git+https://github.com/behave/behave
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install git+https://github.com/behave/behave
     - name: Test with behave
       run: |
         brew install allure
-        python3 behave-parallel.py --tags=search
+        python behave-parallel.py --tags=search
         allure generate --clean "allure-results" -o "allure_report"
     - name: Deploy report to Github Pages
       if: always()
