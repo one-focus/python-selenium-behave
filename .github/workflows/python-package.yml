@@ -33,6 +33,11 @@ jobs:
       run: |
         python behave-parallel.py --tags=search
     - name: Generate report
+      uses: docker-practice/actions-setup-docker@master
+        with:
+          docker_channel: nightly
+           # this value please see https://github.com/AkihiroSuda/moby-snapshot/releases
+          docker_nightly_version: snapshot-20201008
       run: |
         docker build . -t allure-gen
         docker run -v ${PWD}:/github/workspace allure-gen allure-results allure-report
