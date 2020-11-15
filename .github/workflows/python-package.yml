@@ -34,11 +34,5 @@ jobs:
         python behave-parallel.py --tags=search
     - name: Generate report
       run: |
-        allure generate --clean "allure-results" -o "allure-report"
-    - name: Deploy report to Github Pages
-      if: always()
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: allure-report
+        docker build . -t allure-gen
+        docker run -v ${PWD}:/github/workspace allure-gen allure-results allure-report
