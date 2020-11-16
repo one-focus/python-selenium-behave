@@ -59,7 +59,7 @@ def main():
     args = parse_arguments()
     pool = Pool(args.processes)
     if args.tags:
-        p = Popen('behave -d -f json --no-skipped -t {}'.format(args.tags),
+        p = Popen('behave -d -f json --no-summary --no-skipped -t {}'.format(args.tags),
                   stdout=PIPE, shell=True)
         out, err = p.communicate()
         j = json.loads(out.decode())
