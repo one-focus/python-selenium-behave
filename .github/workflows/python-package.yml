@@ -54,7 +54,8 @@ jobs:
     - name: Change status
       run: |
         pwd
-        summary=$(grep -A 5 '"failed" :' "$(pwd)/widgets/summary.json")
+        ls -a
+        summary=$(grep -A 5 '"failed" :' "$(pwd)/allure-report/widgets/summary.json")
         if [-n $summary]; then
           exit 1
     - name: Deploy report to Github Pages
