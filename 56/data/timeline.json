@@ -1,0 +1,96 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Validate left menu -- @1.5 ",
+    "uid" : "236dc5a4f700ae44",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526964944,
+      "stop" : 1605526965406,
+      "duration" : 462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Donate", "Donation amount" ]
+  }, {
+    "name" : "Validate left menu -- @1.1 ",
+    "uid" : "8effb593145bf623",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526960231,
+      "stop" : 1605526961560,
+      "duration" : 1329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Contents", "Wikipedia:Contents" ]
+  }, {
+    "name" : "Validate left menu -- @1.4 ",
+    "uid" : "64b8fb31cad55a63",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526964499,
+      "stop" : 1605526964944,
+      "duration" : 445
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Contact us", "Wikipedia:Contact us" ]
+  }, {
+    "name" : "Validate left menu -- @1.3 ",
+    "uid" : "9ce0b84739551931",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526963369,
+      "stop" : 1605526964498,
+      "duration" : 1129
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "About Wikipedia", "Wikipedia:About" ]
+  }, {
+    "name" : "Validate left menu -- @1.2 ",
+    "uid" : "3dab62f778ff4411",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526961561,
+      "stop" : 1605526963368,
+      "duration" : 1807
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Current events", "Portal:Current events" ]
+  }, {
+    "name" : "Invalid login - data table",
+    "uid" : "a70ff3b7691cae21",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526958030,
+      "stop" : 1605526962737,
+      "duration" : 4707
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate search",
+    "uid" : "b093c99250981db1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605526958031,
+      "stop" : 1605526960230,
+      "duration" : 2199
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}
