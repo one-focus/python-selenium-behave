@@ -1,0 +1,71 @@
+[ {
+  "uid" : "6254711c9fff63c7",
+  "name" : "Validate left menu -- @1.1 ",
+  "time" : {
+    "start" : 1605519195524,
+    "stop" : 1605519195525,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "42ebcdc822bf486",
+  "name" : "Validate left menu -- @1.4 ",
+  "time" : {
+    "start" : 1605519195527,
+    "stop" : 1605519195527,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3c23354624a7687b",
+  "name" : "Validate left menu -- @1.6 ",
+  "time" : {
+    "start" : 1605519195530,
+    "stop" : 1605519195530,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "610355de7b4519ce",
+  "name" : "Validate left menu -- @1.5 ",
+  "time" : {
+    "start" : 1605519195528,
+    "stop" : 1605519195528,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "10345775e0bcf86e",
+  "name" : "Validate left menu -- @1.3 ",
+  "time" : {
+    "start" : 1605519195526,
+    "stop" : 1605519195527,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3a2400c7e5a8a91d",
+  "name" : "Validate left menu -- @1.2 ",
+  "time" : {
+    "start" : 1605519195525,
+    "stop" : 1605519195526,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8cda0e0b3649c484",
+  "name" : "Validate search",
+  "time" : {
+    "start" : 1605519193530,
+    "stop" : 1605519195523,
+    "duration" : 1993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
