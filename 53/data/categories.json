@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Donation w amount\n\n",
+      "children" : [ {
+        "name" : "Validate left menu -- @1.6 ",
+        "uid" : "e840aa6f5fa37137",
+        "parentUid" : "7821a20105ca51002cfd742c52100dfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605526318989,
+          "stop" : 1605526329941,
+          "duration" : 10952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Donate", "Donation w amount" ]
+      } ],
+      "uid" : "7821a20105ca51002cfd742c52100dfe"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
