@@ -53,8 +53,6 @@ jobs:
         allure_history: allure-history
     - name: Change status
       run: |
-        pwd
-        ls -a
         summary=$(grep -A 5 '"failed" :' "$(pwd)/allure-report/widgets/summary.json")
         if [-n $summary]; then
           exit 1
