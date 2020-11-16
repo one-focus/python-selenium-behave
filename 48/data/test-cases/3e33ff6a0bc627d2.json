@@ -1,0 +1,211 @@
+{
+  "uid" : "3e33ff6a0bc627d2",
+  "name" : "Validate search",
+  "historyId" : "c00034b8a8116b0aeb8ec1cbc09a0c84",
+  "time" : {
+    "start" : 1605524521757,
+    "stop" : 1605524525348,
+    "duration" : 3591
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1605524522046,
+        "stop" : 1605524523971,
+        "duration" : 1925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I type \"Test automation\" in search field",
+      "time" : {
+        "start" : 1605524523971,
+        "stop" : 1605524524215,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click on search button",
+      "time" : {
+        "start" : 1605524524216,
+        "stop" : 1605524524764,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I see \"test automation is the use of\" on the page",
+      "time" : {
+        "start" : 1605524524764,
+        "stop" : 1605524525348,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "search"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "33e315e982e230de",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/47//#testresult/33e315e982e230de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605524438154,
+          "stop" : 1605524440764,
+          "duration" : 2610
+        }
+      }, {
+        "uid" : "d5d516078a0debbb",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/46//#testresult/d5d516078a0debbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605524022974,
+          "stop" : 1605524025080,
+          "duration" : 2106
+        }
+      }, {
+        "uid" : "ca1ad9c41356ec4a",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/45//#testresult/ca1ad9c41356ec4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605523739017,
+          "stop" : 1605523740522,
+          "duration" : 1505
+        }
+      }, {
+        "uid" : "a11c0d42cd7e1b94",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/44//#testresult/a11c0d42cd7e1b94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605523513352,
+          "stop" : 1605523515744,
+          "duration" : 2392
+        }
+      }, {
+        "uid" : "9499ce1b60351bd7",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/43//#testresult/9499ce1b60351bd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605523299783,
+          "stop" : 1605523301948,
+          "duration" : 2165
+        }
+      }, {
+        "uid" : "3ab098bbb005aff1",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/42//#testresult/3ab098bbb005aff1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605523157559,
+          "stop" : 1605523159788,
+          "duration" : 2229
+        }
+      }, {
+        "uid" : "62efa1a663cfea5a",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/41//#testresult/62efa1a663cfea5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605523052294,
+          "stop" : 1605523053881,
+          "duration" : 1587
+        }
+      }, {
+        "uid" : "85f3bbe5ea873c",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/40//#testresult/85f3bbe5ea873c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605522746438,
+          "stop" : 1605522749425,
+          "duration" : 2987
+        }
+      }, {
+        "uid" : "f8080f13f9ef830e",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/39//#testresult/f8080f13f9ef830e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605522341702,
+          "stop" : 1605522344145,
+          "duration" : 2443
+        }
+      } ]
+    },
+    "tags" : [ "search", "regression" ]
+  },
+  "source" : "3e33ff6a0bc627d2.json",
+  "parameterValues" : [ ]
+}
