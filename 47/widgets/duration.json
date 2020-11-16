@@ -1,0 +1,11 @@
+[ {
+  "uid" : "33e315e982e230de",
+  "name" : "Validate search",
+  "time" : {
+    "start" : 1605524438154,
+    "stop" : 1605524440764,
+    "duration" : 2610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
