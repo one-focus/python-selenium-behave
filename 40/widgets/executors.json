@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://one-focus.github.io/python-selenium-behave",
+  "buildOrder" : 40,
+  "buildName" : "GitHub Actions Run #365813673",
+  "buildUrl" : "https://github.com/one-focus/python-selenium-behave/actions/runs/365813673",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://one-focus.github.io/python-selenium-behave/40/"
+} ]
