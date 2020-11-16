@@ -51,6 +51,11 @@ jobs:
         gh_pages: gh-pages
         allure_report: allure-report
         allure_history: allure-history
+    - name: Change status
+      run: |
+        summary=$(grep -A 5 '"failed" :' "$workspace/allure-report/widgets/summary.json")
+        if [-n $summary]; then
+          exit 1
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
@@ -58,10 +63,3 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
-    - name: Action status
-      run: |
-        summary=$(grep -A 5 '"failed" :' "$workspace/allure-report/widgets/summary.json")
-        if [-n $summary]; then
-          exit 1
-
-
