@@ -53,7 +53,7 @@ jobs:
         allure_history: allure-history
     - name: Change status
       run: |
-        summary = $(grep -A 5 '"broken" : 0' "$(pwd)/allure-report/widgets/summary.json")
+        summary=$(grep -A 5 '"broken" : 0' "$(pwd)/allure-report/widgets/summary.json")
         [[ ! -z "$summary" ]] || exit 1
     - name: Deploy report to Github Pages
       if: always()
