@@ -1,0 +1,157 @@
+{
+  "uid" : "3ab098bbb005aff1",
+  "name" : "Validate search",
+  "historyId" : "c00034b8a8116b0aeb8ec1cbc09a0c84",
+  "time" : {
+    "start" : 1605523157559,
+    "stop" : 1605523159788,
+    "duration" : 2229
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1605523157716,
+        "stop" : 1605523158709,
+        "duration" : 993
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I type \"Test automation\" in search field",
+      "time" : {
+        "start" : 1605523158710,
+        "stop" : 1605523159057,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on search button",
+      "time" : {
+        "start" : 1605523159057,
+        "stop" : 1605523159465,
+        "duration" : 408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see \"test automation is the use of\" on the page",
+      "time" : {
+        "start" : 1605523159465,
+        "stop" : 1605523159788,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "search"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "62efa1a663cfea5a",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/41//#testresult/62efa1a663cfea5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605523052294,
+          "stop" : 1605523053881,
+          "duration" : 1587
+        }
+      }, {
+        "uid" : "85f3bbe5ea873c",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/40//#testresult/85f3bbe5ea873c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605522746438,
+          "stop" : 1605522749425,
+          "duration" : 2987
+        }
+      }, {
+        "uid" : "f8080f13f9ef830e",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/39//#testresult/f8080f13f9ef830e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605522341702,
+          "stop" : 1605522344145,
+          "duration" : 2443
+        }
+      } ]
+    },
+    "tags" : [ "search", "regression" ]
+  },
+  "source" : "3ab098bbb005aff1.json",
+  "parameterValues" : [ ]
+}
