@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "Validate search",
+      "uid" : "9499ce1b60351bd7",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605523299783,
+        "stop" : 1605523301948,
+        "duration" : 2165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  } ],
+  "name" : "behaviors"
+}
