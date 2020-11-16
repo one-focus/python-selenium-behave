@@ -54,10 +54,7 @@ jobs:
     - name: Change status
       run: |
         summary=$(grep -A 5 '"failed" : 0' "$(pwd)/allure-report/widgets/summary.json")
-        echo $summary
-        if [-n $summary]; then
-          exit 1
-        fi
+        [ ! -z "$summary" ] || exit 1
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
