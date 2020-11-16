@@ -2,7 +2,7 @@
 Feature: Login
   Check user can login with valid username and password
 
-  @validation @regression
+  @regression
   Scenario: Invalid login - data table
     Given I open login page
     Then I see validation message for
