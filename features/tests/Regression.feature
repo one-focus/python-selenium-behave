@@ -17,9 +17,10 @@ Feature: Login
     Then I see "<text>" on the page
 
     Examples:
-      | menu item       | text                        |
-      | Contents        | Wikipedia:Contents          |
-      | Current events  | Portal:Current events       |
-      | About Wikipedia | Wikipedia:About             |
-      | Contact us      | Wikipedia:Contact us        |
-      | Donate          | Thank you for your interest |
+      | menu item       | text                  |
+      | Contents        | Wikipedia:Contents    |
+      | Current events  | Portal:Current events |
+      | About Wikipedia | Wikipedia:About       |
+      | Contact us      | Wikipedia:Contact us  |
+      | Donate          | Donation amount       |
+      | Donate          | Donation w amount       |

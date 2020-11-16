@@ -58,3 +58,10 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
+    - name: Action status
+      run: |
+        summary=$(grep -A 5 '"failed" :' "$workspace/allure-report/widgets/summary.json")
+        if [-n $summary]; then
+          exit 1
+
+
