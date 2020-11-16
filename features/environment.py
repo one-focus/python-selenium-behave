@@ -1,4 +1,6 @@
 import configparser
+
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -17,6 +19,16 @@ def before_all(context):
 
 def before_scenario(context, scenario):
     context.driver.delete_all_cookies()
+
+
+def after_step(context, step) -> None:
+    if step.status == "failed":
+        try:
+            allure.attach(context.driver.get_screenshot_as_png(),
+                          name=f'{context.driver.desired_capabilities["platformVersion"]}',
+                          attachment_type=allure.attachment_type.PNG)
+        except:
+            pass
 
 
 def after_all(context):
