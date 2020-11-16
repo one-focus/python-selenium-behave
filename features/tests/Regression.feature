@@ -23,4 +23,3 @@ Feature: Login
       | About Wikipedia | Wikipedia:About       |
       | Contact us      | Wikipedia:Contact us  |
       | Donate          | Donation amount       |
-      | Donate          | Donation w amount       |
