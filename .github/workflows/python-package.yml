@@ -53,9 +53,9 @@ jobs:
         allure_history: allure-history
     - name: Change status
       run: |
-        summary=$(grep -A 5 '"failed" :' "$(pwd)/allure-report/widgets/summary.json")
-        if [-n $summary]; then
+        if [-n $(grep -A 5 '"failed" :' "$(pwd)/allure-report/widgets/summary.json")]; then
           exit 1
+        fi
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
