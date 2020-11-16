@@ -53,8 +53,8 @@ jobs:
         allure_history: allure-history
     - name: Change status
       run: |
-        cd widgets
-        summary=$(grep -A 5 '"failed" :' "widgets/summary.json")
+        pwd
+        summary=$(grep -A 5 '"failed" :' "$(pwd)/widgets/summary.json")
         if [-n $summary]; then
           exit 1
     - name: Deploy report to Github Pages
