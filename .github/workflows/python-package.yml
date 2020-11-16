@@ -54,6 +54,7 @@ jobs:
     - name: Change status
       run: |
         summary=$(grep -A 5 '"failed" :' "$(pwd)/allure-report/widgets/summary.json")
+        echo $summary
         if [-n $summary]; then
           exit 1
         fi
