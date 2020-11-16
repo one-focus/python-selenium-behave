@@ -1,0 +1,142 @@
+{
+  "uid" : "b622fe20f4929dda",
+  "name" : "Invalid login - data table",
+  "historyId" : "af6cdccb3c63a220aaa53a1d743dbcf7",
+  "time" : {
+    "start" : 1605518523815,
+    "stop" : 1605518523817,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given I open login page",
+      "time" : {
+        "start" : 1605518523816,
+        "stop" : 1605518523816,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see validation message for",
+      "time" : {
+        "start" : 1605518523817,
+        "stop" : 1605518523817,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac42faa37aec4f97",
+        "name" : ".table",
+        "source" : "ac42faa37aec4f97.csv",
+        "type" : "text/csv",
+        "size" : 220
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "72f0c46f9c8c03cf",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/34//#testresult/72f0c46f9c8c03cf",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1605518115580,
+          "stop" : 1605518115581,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "41b3b0a1dfa3353f",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/33//#testresult/41b3b0a1dfa3353f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1605517083357,
+          "stop" : 1605517083358,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cfadcb53408c88bc",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/32//#testresult/cfadcb53408c88bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1605516819498,
+          "stop" : 1605516819499,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b1b23f872f41fc84",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/31//#testresult/b1b23f872f41fc84",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1605417098500,
+          "stop" : 1605417098501,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "regression", "validation" ]
+  },
+  "source" : "b622fe20f4929dda.json",
+  "parameterValues" : [ ]
+}
