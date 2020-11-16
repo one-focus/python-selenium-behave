@@ -46,7 +46,7 @@ def _run_feature(feature, tags=None, userdata=None):
         params = "--tags={0} --no-capture".format(tags)
     else:
         params = "--tags={0} -D {1} --no-capture".format(tags, ' -D '.join(userdata))
-    cmd = "behave -f allure_behave.formatter:AllureFormatter -o allure-results {0} -i {1}".format(params, feature)
+    cmd = "behave --no-skipped -f allure_behave.formatter:AllureFormatter -o allure-results {0} -i {1}".format(params, feature)
     r = call(cmd, shell=True)
     status = 'ok' if r == 0 else 'failed'
     return feature, status
@@ -59,7 +59,7 @@ def main():
     args = parse_arguments()
     pool = Pool(args.processes)
     if args.tags:
-        p = Popen('behave -d --no-skipped -t {}'.format(args.tags),
+        p = Popen('behave -d -f json --no-summary -t {}'.format(args.tags),
                   stdout=PIPE, shell=True)
         out, err = p.communicate()
         j = json.loads(out.decode())
