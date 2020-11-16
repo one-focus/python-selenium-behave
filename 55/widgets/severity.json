@@ -1,0 +1,81 @@
+[ {
+  "uid" : "b97df3cdcce11457",
+  "name" : "Invalid login - data table",
+  "time" : {
+    "start" : 1605526755737,
+    "stop" : 1605526760184,
+    "duration" : 4447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51aa0ccf694a6293",
+  "name" : "Validate search",
+  "time" : {
+    "start" : 1605526755734,
+    "stop" : 1605526757466,
+    "duration" : 1732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fc07229734f4e83",
+  "name" : "Validate left menu -- @1.4 ",
+  "time" : {
+    "start" : 1605526761495,
+    "stop" : 1605526761988,
+    "duration" : 493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4914e86e50e29579",
+  "name" : "Validate left menu -- @1.2 ",
+  "time" : {
+    "start" : 1605526758257,
+    "stop" : 1605526760263,
+    "duration" : 2006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64eabd555c269651",
+  "name" : "Validate left menu -- @1.6 ",
+  "time" : {
+    "start" : 1605526763308,
+    "stop" : 1605526774161,
+    "duration" : 10853
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f7432bc6791c3362",
+  "name" : "Validate left menu -- @1.5 ",
+  "time" : {
+    "start" : 1605526761989,
+    "stop" : 1605526763308,
+    "duration" : 1319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d2475d2e0068c94",
+  "name" : "Validate left menu -- @1.3 ",
+  "time" : {
+    "start" : 1605526760263,
+    "stop" : 1605526761494,
+    "duration" : 1231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d59c17eca9c05249",
+  "name" : "Validate left menu -- @1.1 ",
+  "time" : {
+    "start" : 1605526757467,
+    "stop" : 1605526758256,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
