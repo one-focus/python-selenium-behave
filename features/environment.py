@@ -25,7 +25,7 @@ def after_step(context, step) -> None:
     if step.status == "failed":
         try:
             allure.attach(context.driver.get_screenshot_as_png(),
-                          name=f'{context.driver.desired_capabilities["platformVersion"]}',
+                          name="bug.png",
                           attachment_type=allure.attachment_type.PNG)
         except:
             pass
