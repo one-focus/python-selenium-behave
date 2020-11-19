@@ -3,22 +3,20 @@
 
 name: Python package
 
-on:
-  push:
-    branches: [ main ]
+on: push
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.7]
+        tag: ["search", "regression"]
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: 3.7
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
@@ -31,7 +29,7 @@ jobs:
         rm -rf allure-2.7.0.tgz
     - name: Test with behave
       run: |
-        python behave-parallel.py --tags=regression
+        python behave-parallel.py --tags=${{ matrix.tag }}
     - name: Generate report
       run: |
         allure generate --clean "allure-results" -o "allure-report"
