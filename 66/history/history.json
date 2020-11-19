@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "454114b619365623",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/454114b619365623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775685670,
+        "stop" : 1605775700405,
+        "duration" : 14735
+      }
+    }, {
       "uid" : "b7a603c65823b457",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/b7a603c65823b457",
       "status" : "passed",
@@ -42,11 +51,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "db828c44338ac574",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/db828c44338ac574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775735126,
+        "stop" : 1605775741808,
+        "duration" : 6682
+      }
+    }, {
       "uid" : "5a0c64d8a8b84255",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/5a0c64d8a8b84255",
       "status" : "passed",
@@ -71,11 +89,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "ac7d87e2821b79db",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/ac7d87e2821b79db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775685370,
+        "stop" : 1605775720542,
+        "duration" : 35172
+      }
+    }, {
       "uid" : "f0178a911c439840",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/f0178a911c439840",
       "status" : "passed",
@@ -100,11 +127,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3aaebfffb13af285",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/3aaebfffb13af285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775710324,
+        "stop" : 1605775722391,
+        "duration" : 12067
+      }
+    }, {
       "uid" : "f49a6a268288e36",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/f49a6a268288e36",
       "status" : "passed",
@@ -129,11 +165,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "ad64e982f47d581a",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/ad64e982f47d581a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775722391,
+        "stop" : 1605775729392,
+        "duration" : 7001
+      }
+    }, {
       "uid" : "cf9aa5d56ba07e5f",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/cf9aa5d56ba07e5f",
       "status" : "passed",
@@ -158,11 +203,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9785ba94437fc4b0",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/9785ba94437fc4b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775700406,
+        "stop" : 1605775710323,
+        "duration" : 9917
+      }
+    }, {
       "uid" : "7d27dc067f92925e",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/7d27dc067f92925e",
       "status" : "passed",
@@ -208,11 +262,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "93d0eaac6c5a7766",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/93d0eaac6c5a7766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775729393,
+        "stop" : 1605775735125,
+        "duration" : 5732
+      }
+    }, {
       "uid" : "869fae956c5bdc83",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/869fae956c5bdc83",
       "status" : "passed",

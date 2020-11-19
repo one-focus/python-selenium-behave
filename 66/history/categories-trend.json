@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 66,
+  "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 65,
   "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65/",
   "reportName" : "Allure Report with history",

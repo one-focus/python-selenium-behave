@@ -3,18 +3,96 @@
   "children" : [ {
     "name" : "Login",
     "children" : [ {
-      "name" : "Validate search",
-      "uid" : "b7a603c65823b457",
+      "name" : "Invalid login - data table",
+      "uid" : "ac7d87e2821b79db",
       "parentUid" : "14102d61eef2af473312d4f91dec531b",
       "status" : "passed",
       "time" : {
-        "start" : 1605775693992,
-        "stop" : 1605775710356,
-        "duration" : 16364
+        "start" : 1605775685370,
+        "stop" : 1605775720542,
+        "duration" : 35172
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "Validate search",
+      "uid" : "454114b619365623",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775685670,
+        "stop" : 1605775700405,
+        "duration" : 14735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate left menu -- @1.1 ",
+      "uid" : "9785ba94437fc4b0",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775700406,
+        "stop" : 1605775710323,
+        "duration" : 9917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Contents", "Wikipedia:Contents" ]
+    }, {
+      "name" : "Validate left menu -- @1.2 ",
+      "uid" : "3aaebfffb13af285",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775710324,
+        "stop" : 1605775722391,
+        "duration" : 12067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Current events", "Portal:Current events" ]
+    }, {
+      "name" : "Validate left menu -- @1.3 ",
+      "uid" : "ad64e982f47d581a",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775722391,
+        "stop" : 1605775729392,
+        "duration" : 7001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "About Wikipedia", "Wikipedia:About" ]
+    }, {
+      "name" : "Validate left menu -- @1.4 ",
+      "uid" : "93d0eaac6c5a7766",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775729393,
+        "stop" : 1605775735125,
+        "duration" : 5732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Contact us", "Wikipedia:Contact us" ]
+    }, {
+      "name" : "Validate left menu -- @1.5 ",
+      "uid" : "db828c44338ac574",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605775735126,
+        "stop" : 1605775741808,
+        "duration" : 6682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Donate", "Donation amount" ]
     } ],
     "uid" : "14102d61eef2af473312d4f91dec531b"
   } ],
