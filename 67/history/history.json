@@ -60,11 +60,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "895449d834eff69f",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67//#testresult/895449d834eff69f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776370450,
+        "stop" : 1605776376546,
+        "duration" : 6096
+      }
+    }, {
       "uid" : "db828c44338ac574",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/db828c44338ac574",
       "status" : "passed",
@@ -98,11 +107,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "7c3373b3f0c30523",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67//#testresult/7c3373b3f0c30523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776337689,
+        "stop" : 1605776370045,
+        "duration" : 32356
+      }
+    }, {
       "uid" : "ac7d87e2821b79db",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/ac7d87e2821b79db",
       "status" : "passed",
@@ -136,11 +154,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "9b3810f08782441c",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67//#testresult/9b3810f08782441c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776346435,
+        "stop" : 1605776356399,
+        "duration" : 9964
+      }
+    }, {
       "uid" : "3aaebfffb13af285",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/3aaebfffb13af285",
       "status" : "passed",
@@ -174,11 +201,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "4171e6a6f1164362",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67//#testresult/4171e6a6f1164362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776356400,
+        "stop" : 1605776364636,
+        "duration" : 8236
+      }
+    }, {
       "uid" : "ad64e982f47d581a",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/ad64e982f47d581a",
       "status" : "passed",
@@ -212,11 +248,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "9925843d7ea5ff1e",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67//#testresult/9925843d7ea5ff1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776338496,
+        "stop" : 1605776346434,
+        "duration" : 7938
+      }
+    }, {
       "uid" : "9785ba94437fc4b0",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/9785ba94437fc4b0",
       "status" : "passed",
@@ -271,11 +316,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "46ddbac715411dc1",
+      "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67//#testresult/46ddbac715411dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776364637,
+        "stop" : 1605776370449,
+        "duration" : 5812
+      }
+    }, {
       "uid" : "93d0eaac6c5a7766",
       "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/93d0eaac6c5a7766",
       "status" : "passed",

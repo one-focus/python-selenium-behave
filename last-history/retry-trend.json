@@ -3,6 +3,14 @@
   "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "run" : 6,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 67,
+  "reportUrl" : "https://one-focus.github.io/python-selenium-behave/67/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "run" : 1,
     "retry" : 0
   }

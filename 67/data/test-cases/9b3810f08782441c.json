@@ -1,0 +1,145 @@
+{
+  "uid" : "9b3810f08782441c",
+  "name" : "Validate left menu -- @1.2 ",
+  "historyId" : "37531fe6efffd739f7a4b4abc7fa9b89",
+  "time" : {
+    "start" : 1605776346435,
+    "stop" : 1605776356399,
+    "duration" : 9964
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1605776346948,
+        "stop" : 1605776348248,
+        "duration" : 1300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on Current events",
+      "time" : {
+        "start" : 1605776348248,
+        "stop" : 1605776351839,
+        "duration" : 3591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see \"Portal:Current events\" on the page",
+      "time" : {
+        "start" : 1605776351839,
+        "stop" : 1605776356399,
+        "duration" : 4560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "menu item",
+    "value" : "Current events"
+  }, {
+    "name" : "text",
+    "value" : "Portal:Current events"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3aaebfffb13af285",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/3aaebfffb13af285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605775710324,
+          "stop" : 1605775722391,
+          "duration" : 12067
+        }
+      }, {
+        "uid" : "f49a6a268288e36",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/f49a6a268288e36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605535291834,
+          "stop" : 1605535293665,
+          "duration" : 1831
+        }
+      }, {
+        "uid" : "ea3c572c7548e0a8",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/64//#testresult/ea3c572c7548e0a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605535155769,
+          "stop" : 1605535157651,
+          "duration" : 1882
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "9b3810f08782441c.json",
+  "parameterValues" : [ "Current events", "Portal:Current events" ]
+}

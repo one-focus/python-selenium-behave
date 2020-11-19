@@ -1,0 +1,145 @@
+{
+  "uid" : "9925843d7ea5ff1e",
+  "name" : "Validate left menu -- @1.1 ",
+  "historyId" : "ed682bda86983d707b284683d4d533e2",
+  "time" : {
+    "start" : 1605776338496,
+    "stop" : 1605776346434,
+    "duration" : 7938
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1605776339019,
+        "stop" : 1605776341940,
+        "duration" : 2921
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on Contents",
+      "time" : {
+        "start" : 1605776341940,
+        "stop" : 1605776345025,
+        "duration" : 3085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see \"Wikipedia:Contents\" on the page",
+      "time" : {
+        "start" : 1605776345025,
+        "stop" : 1605776346434,
+        "duration" : 1409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "menu item",
+    "value" : "Contents"
+  }, {
+    "name" : "text",
+    "value" : "Wikipedia:Contents"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9785ba94437fc4b0",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/66//#testresult/9785ba94437fc4b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605775700406,
+          "stop" : 1605775710323,
+          "duration" : 9917
+        }
+      }, {
+        "uid" : "7d27dc067f92925e",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/65//#testresult/7d27dc067f92925e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605535291129,
+          "stop" : 1605535291833,
+          "duration" : 704
+        }
+      }, {
+        "uid" : "94a6980636760f72",
+        "reportUrl" : "https://one-focus.github.io/python-selenium-behave/64//#testresult/94a6980636760f72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605535154987,
+          "stop" : 1605535155769,
+          "duration" : 782
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "9925843d7ea5ff1e.json",
+  "parameterValues" : [ "Contents", "Wikipedia:Contents" ]
+}
