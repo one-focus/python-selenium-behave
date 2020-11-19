@@ -1,5 +1,4 @@
 # Created by Alex Kardash at 14/11/2020
-@regression
 Feature: Login
   Check user can login with valid username and password
 
@@ -12,6 +11,7 @@ Feature: Login
     When I click on search button
     Then I see "test automation is the use of" on the page
 
+  @regression
   Scenario Outline: Validate left menu
     When I click on <menu item>
     Then I see "<text>" on the page
